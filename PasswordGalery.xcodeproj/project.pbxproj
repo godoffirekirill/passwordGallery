@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C60C1C75A0BB63DDCBDBA76 /* Pods_PasswordGaleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70CFFFE36BF9C055A3376A0 /* Pods_PasswordGaleryTests.framework */; };
+		66AEBF33FD0331BA8FAD2025 /* Pods_PasswordGalery_PasswordGaleryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D338D72F5ACCB87655EB9C5C /* Pods_PasswordGalery_PasswordGaleryUITests.framework */; };
+		D7F2FFB8E1DD49E2F721DC8D /* Pods_PasswordGalery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520144857A326F145609F115 /* Pods_PasswordGalery.framework */; };
+		ED54FEE22B21C14D00CCED23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FEE12B21C14D00CCED23 /* AppDelegate.swift */; };
+		ED54FEE42B21C14D00CCED23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FEE32B21C14D00CCED23 /* SceneDelegate.swift */; };
+		ED54FEE62B21C14D00CCED23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FEE52B21C14D00CCED23 /* ViewController.swift */; };
+		ED54FEE92B21C14D00CCED23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED54FEE72B21C14D00CCED23 /* Main.storyboard */; };
+		ED54FEEB2B21C14F00CCED23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED54FEEA2B21C14F00CCED23 /* Assets.xcassets */; };
+		ED54FEEE2B21C14F00CCED23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED54FEEC2B21C14F00CCED23 /* LaunchScreen.storyboard */; };
+		ED54FEF92B21C14F00CCED23 /* PasswordGaleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FEF82B21C14F00CCED23 /* PasswordGaleryTests.swift */; };
+		ED54FF032B21C14F00CCED23 /* PasswordGaleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FF022B21C14F00CCED23 /* PasswordGaleryUITests.swift */; };
+		ED54FF052B21C14F00CCED23 /* PasswordGaleryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FF042B21C14F00CCED23 /* PasswordGaleryUITestsLaunchTests.swift */; };
+		ED54FF122B21C59700CCED23 /* ClassBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FF112B21C59700CCED23 /* ClassBindable.swift */; };
+		ED54FF142B21C7CA00CCED23 /* ViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FF132B21C7CA00CCED23 /* ViewControllerModel.swift */; };
+		ED54FF162B21C81600CCED23 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FF152B21C81600CCED23 /* SecondViewController.swift */; };
+		ED54FF182B21C84C00CCED23 /* CreatePassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FF172B21C84C00CCED23 /* CreatePassViewController.swift */; };
+		ED54FF1A2B21C8A000CCED23 /* AddImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FF192B21C8A000CCED23 /* AddImageViewController.swift */; };
+		ED54FF1C2B21C8D900CCED23 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FF1B2B21C8D900CCED23 /* GalleryViewController.swift */; };
+		ED54FF202B21C97900CCED23 /* AddImageViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FF1F2B21C97900CCED23 /* AddImageViewControllerModel.swift */; };
+		ED54FF222B21C98800CCED23 /* CreatePassViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FF212B21C98800CCED23 /* CreatePassViewControllerModel.swift */; };
+		ED54FF262B221CAF00CCED23 /* ClassSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54FF252B221CAF00CCED23 /* ClassSetting.swift */; };
+		EDE821DB2B2B28D0001CB845 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE821DA2B2B28D0001CB845 /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED54FEF52B21C14F00CCED23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED54FED62B21C14D00CCED23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED54FEDD2B21C14D00CCED23;
+			remoteInfo = PasswordGalery;
+		};
+		ED54FEFF2B21C14F00CCED23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED54FED62B21C14D00CCED23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED54FEDD2B21C14D00CCED23;
+			remoteInfo = PasswordGalery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3626CE6A8B2C264C6DD4EE5A /* Pods-PasswordGaleryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordGaleryTests.release.xcconfig"; path = "Target Support Files/Pods-PasswordGaleryTests/Pods-PasswordGaleryTests.release.xcconfig"; sourceTree = "<group>"; };
+		4741DFEE9C93EA77D968732A /* Pods-PasswordGaleryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordGaleryTests.debug.xcconfig"; path = "Target Support Files/Pods-PasswordGaleryTests/Pods-PasswordGaleryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		520144857A326F145609F115 /* Pods_PasswordGalery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordGalery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7478F67310BB5D24163775E7 /* Pods-PasswordGalery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordGalery.release.xcconfig"; path = "Target Support Files/Pods-PasswordGalery/Pods-PasswordGalery.release.xcconfig"; sourceTree = "<group>"; };
+		C70CFFFE36BF9C055A3376A0 /* Pods_PasswordGaleryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordGaleryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D338D72F5ACCB87655EB9C5C /* Pods_PasswordGalery_PasswordGaleryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordGalery_PasswordGaleryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98CD55A857CA3ADDE55F6F4 /* Pods-PasswordGalery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordGalery.debug.xcconfig"; path = "Target Support Files/Pods-PasswordGalery/Pods-PasswordGalery.debug.xcconfig"; sourceTree = "<group>"; };
+		ED54FEDE2B21C14D00CCED23 /* PasswordGalery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordGalery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED54FEE12B21C14D00CCED23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED54FEE32B21C14D00CCED23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED54FEE52B21C14D00CCED23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED54FEE82B21C14D00CCED23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED54FEEA2B21C14F00CCED23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED54FEED2B21C14F00CCED23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED54FEEF2B21C14F00CCED23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED54FEF42B21C14F00CCED23 /* PasswordGaleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordGaleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED54FEF82B21C14F00CCED23 /* PasswordGaleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGaleryTests.swift; sourceTree = "<group>"; };
+		ED54FEFE2B21C14F00CCED23 /* PasswordGaleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordGaleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED54FF022B21C14F00CCED23 /* PasswordGaleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGaleryUITests.swift; sourceTree = "<group>"; };
+		ED54FF042B21C14F00CCED23 /* PasswordGaleryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGaleryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED54FF112B21C59700CCED23 /* ClassBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassBindable.swift; sourceTree = "<group>"; };
+		ED54FF132B21C7CA00CCED23 /* ViewControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerModel.swift; sourceTree = "<group>"; };
+		ED54FF152B21C81600CCED23 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ED54FF172B21C84C00CCED23 /* CreatePassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePassViewController.swift; sourceTree = "<group>"; };
+		ED54FF192B21C8A000CCED23 /* AddImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageViewController.swift; sourceTree = "<group>"; };
+		ED54FF1B2B21C8D900CCED23 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		ED54FF1F2B21C97900CCED23 /* AddImageViewControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageViewControllerModel.swift; sourceTree = "<group>"; };
+		ED54FF212B21C98800CCED23 /* CreatePassViewControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePassViewControllerModel.swift; sourceTree = "<group>"; };
+		ED54FF252B221CAF00CCED23 /* ClassSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassSetting.swift; sourceTree = "<group>"; };
+		EDE821DA2B2B28D0001CB845 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		EEAC7FD05C52943511309DFE /* Pods-PasswordGalery-PasswordGaleryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordGalery-PasswordGaleryUITests.debug.xcconfig"; path = "Target Support Files/Pods-PasswordGalery-PasswordGaleryUITests/Pods-PasswordGalery-PasswordGaleryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4E0B5F5A115E98C90AF213 /* Pods-PasswordGalery-PasswordGaleryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordGalery-PasswordGaleryUITests.release.xcconfig"; path = "Target Support Files/Pods-PasswordGalery-PasswordGaleryUITests/Pods-PasswordGalery-PasswordGaleryUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED54FEDB2B21C14D00CCED23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F2FFB8E1DD49E2F721DC8D /* Pods_PasswordGalery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED54FEF12B21C14F00CCED23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C60C1C75A0BB63DDCBDBA76 /* Pods_PasswordGaleryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED54FEFB2B21C14F00CCED23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AEBF33FD0331BA8FAD2025 /* Pods_PasswordGalery_PasswordGaleryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E8633A3C83ECD7C366A84BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				520144857A326F145609F115 /* Pods_PasswordGalery.framework */,
+				D338D72F5ACCB87655EB9C5C /* Pods_PasswordGalery_PasswordGaleryUITests.framework */,
+				C70CFFFE36BF9C055A3376A0 /* Pods_PasswordGaleryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94873D7D10A406790F4852C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D98CD55A857CA3ADDE55F6F4 /* Pods-PasswordGalery.debug.xcconfig */,
+				7478F67310BB5D24163775E7 /* Pods-PasswordGalery.release.xcconfig */,
+				EEAC7FD05C52943511309DFE /* Pods-PasswordGalery-PasswordGaleryUITests.debug.xcconfig */,
+				FE4E0B5F5A115E98C90AF213 /* Pods-PasswordGalery-PasswordGaleryUITests.release.xcconfig */,
+				4741DFEE9C93EA77D968732A /* Pods-PasswordGaleryTests.debug.xcconfig */,
+				3626CE6A8B2C264C6DD4EE5A /* Pods-PasswordGaleryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED54FED52B21C14D00CCED23 = {
+			isa = PBXGroup;
+			children = (
+				ED54FEE02B21C14D00CCED23 /* PasswordGalery */,
+				ED54FEF72B21C14F00CCED23 /* PasswordGaleryTests */,
+				ED54FF012B21C14F00CCED23 /* PasswordGaleryUITests */,
+				ED54FEDF2B21C14D00CCED23 /* Products */,
+				94873D7D10A406790F4852C3 /* Pods */,
+				6E8633A3C83ECD7C366A84BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED54FEDF2B21C14D00CCED23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED54FEDE2B21C14D00CCED23 /* PasswordGalery.app */,
+				ED54FEF42B21C14F00CCED23 /* PasswordGaleryTests.xctest */,
+				ED54FEFE2B21C14F00CCED23 /* PasswordGaleryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED54FEE02B21C14D00CCED23 /* PasswordGalery */ = {
+			isa = PBXGroup;
+			children = (
+				ED54FEE12B21C14D00CCED23 /* AppDelegate.swift */,
+				ED54FEE32B21C14D00CCED23 /* SceneDelegate.swift */,
+				ED54FEE52B21C14D00CCED23 /* ViewController.swift */,
+				ED54FEE72B21C14D00CCED23 /* Main.storyboard */,
+				EDE821DA2B2B28D0001CB845 /* CollectionViewCell.swift */,
+				ED54FF1B2B21C8D900CCED23 /* GalleryViewController.swift */,
+				ED54FF192B21C8A000CCED23 /* AddImageViewController.swift */,
+				ED54FF1F2B21C97900CCED23 /* AddImageViewControllerModel.swift */,
+				ED54FF172B21C84C00CCED23 /* CreatePassViewController.swift */,
+				ED54FF212B21C98800CCED23 /* CreatePassViewControllerModel.swift */,
+				ED54FF252B221CAF00CCED23 /* ClassSetting.swift */,
+				ED54FF152B21C81600CCED23 /* SecondViewController.swift */,
+				ED54FF132B21C7CA00CCED23 /* ViewControllerModel.swift */,
+				ED54FF112B21C59700CCED23 /* ClassBindable.swift */,
+				ED54FEEA2B21C14F00CCED23 /* Assets.xcassets */,
+				ED54FEEC2B21C14F00CCED23 /* LaunchScreen.storyboard */,
+				ED54FEEF2B21C14F00CCED23 /* Info.plist */,
+			);
+			path = PasswordGalery;
+			sourceTree = "<group>";
+		};
+		ED54FEF72B21C14F00CCED23 /* PasswordGaleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED54FEF82B21C14F00CCED23 /* PasswordGaleryTests.swift */,
+			);
+			path = PasswordGaleryTests;
+			sourceTree = "<group>";
+		};
+		ED54FF012B21C14F00CCED23 /* PasswordGaleryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED54FF022B21C14F00CCED23 /* PasswordGaleryUITests.swift */,
+				ED54FF042B21C14F00CCED23 /* PasswordGaleryUITestsLaunchTests.swift */,
+			);
+			path = PasswordGaleryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED54FEDD2B21C14D00CCED23 /* PasswordGalery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED54FF082B21C14F00CCED23 /* Build configuration list for PBXNativeTarget "PasswordGalery" */;
+			buildPhases = (
+				71C809053860E7FE4A086857 /* [CP] Check Pods Manifest.lock */,
+				ED54FEDA2B21C14D00CCED23 /* Sources */,
+				ED54FEDB2B21C14D00CCED23 /* Frameworks */,
+				ED54FEDC2B21C14D00CCED23 /* Resources */,
+				336C9EB2059541E9BAFEDAC0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordGalery;
+			productName = PasswordGalery;
+			productReference = ED54FEDE2B21C14D00CCED23 /* PasswordGalery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED54FEF32B21C14F00CCED23 /* PasswordGaleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED54FF0B2B21C14F00CCED23 /* Build configuration list for PBXNativeTarget "PasswordGaleryTests" */;
+			buildPhases = (
+				A614555CA70359EAEC9359B8 /* [CP] Check Pods Manifest.lock */,
+				ED54FEF02B21C14F00CCED23 /* Sources */,
+				ED54FEF12B21C14F00CCED23 /* Frameworks */,
+				ED54FEF22B21C14F00CCED23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED54FEF62B21C14F00CCED23 /* PBXTargetDependency */,
+			);
+			name = PasswordGaleryTests;
+			productName = PasswordGaleryTests;
+			productReference = ED54FEF42B21C14F00CCED23 /* PasswordGaleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED54FEFD2B21C14F00CCED23 /* PasswordGaleryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED54FF0E2B21C14F00CCED23 /* Build configuration list for PBXNativeTarget "PasswordGaleryUITests" */;
+			buildPhases = (
+				7B0DC45DF6980380C2FAD62B /* [CP] Check Pods Manifest.lock */,
+				ED54FEFA2B21C14F00CCED23 /* Sources */,
+				ED54FEFB2B21C14F00CCED23 /* Frameworks */,
+				ED54FEFC2B21C14F00CCED23 /* Resources */,
+				5787B203674F738B3941B485 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED54FF002B21C14F00CCED23 /* PBXTargetDependency */,
+			);
+			name = PasswordGaleryUITests;
+			productName = PasswordGaleryUITests;
+			productReference = ED54FEFE2B21C14F00CCED23 /* PasswordGaleryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED54FED62B21C14D00CCED23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ED54FEDD2B21C14D00CCED23 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					ED54FEF32B21C14F00CCED23 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = ED54FEDD2B21C14D00CCED23;
+					};
+					ED54FEFD2B21C14F00CCED23 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = ED54FEDD2B21C14D00CCED23;
+					};
+				};
+			};
+			buildConfigurationList = ED54FED92B21C14D00CCED23 /* Build configuration list for PBXProject "PasswordGalery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED54FED52B21C14D00CCED23;
+			productRefGroup = ED54FEDF2B21C14D00CCED23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED54FEDD2B21C14D00CCED23 /* PasswordGalery */,
+				ED54FEF32B21C14F00CCED23 /* PasswordGaleryTests */,
+				ED54FEFD2B21C14F00CCED23 /* PasswordGaleryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED54FEDC2B21C14D00CCED23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED54FEEE2B21C14F00CCED23 /* LaunchScreen.storyboard in Resources */,
+				ED54FEEB2B21C14F00CCED23 /* Assets.xcassets in Resources */,
+				ED54FEE92B21C14D00CCED23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED54FEF22B21C14F00CCED23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED54FEFC2B21C14F00CCED23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		336C9EB2059541E9BAFEDAC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PasswordGalery/Pods-PasswordGalery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PasswordGalery/Pods-PasswordGalery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PasswordGalery/Pods-PasswordGalery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5787B203674F738B3941B485 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PasswordGalery-PasswordGaleryUITests/Pods-PasswordGalery-PasswordGaleryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PasswordGalery-PasswordGaleryUITests/Pods-PasswordGalery-PasswordGaleryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PasswordGalery-PasswordGaleryUITests/Pods-PasswordGalery-PasswordGaleryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71C809053860E7FE4A086857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordGalery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B0DC45DF6980380C2FAD62B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordGalery-PasswordGaleryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A614555CA70359EAEC9359B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordGaleryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED54FEDA2B21C14D00CCED23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED54FF162B21C81600CCED23 /* SecondViewController.swift in Sources */,
+				ED54FEE62B21C14D00CCED23 /* ViewController.swift in Sources */,
+				ED54FF1A2B21C8A000CCED23 /* AddImageViewController.swift in Sources */,
+				ED54FF122B21C59700CCED23 /* ClassBindable.swift in Sources */,
+				EDE821DB2B2B28D0001CB845 /* CollectionViewCell.swift in Sources */,
+				ED54FF222B21C98800CCED23 /* CreatePassViewControllerModel.swift in Sources */,
+				ED54FEE22B21C14D00CCED23 /* AppDelegate.swift in Sources */,
+				ED54FF202B21C97900CCED23 /* AddImageViewControllerModel.swift in Sources */,
+				ED54FF142B21C7CA00CCED23 /* ViewControllerModel.swift in Sources */,
+				ED54FF262B221CAF00CCED23 /* ClassSetting.swift in Sources */,
+				ED54FF1C2B21C8D900CCED23 /* GalleryViewController.swift in Sources */,
+				ED54FF182B21C84C00CCED23 /* CreatePassViewController.swift in Sources */,
+				ED54FEE42B21C14D00CCED23 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED54FEF02B21C14F00CCED23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED54FEF92B21C14F00CCED23 /* PasswordGaleryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED54FEFA2B21C14F00CCED23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED54FF032B21C14F00CCED23 /* PasswordGaleryUITests.swift in Sources */,
+				ED54FF052B21C14F00CCED23 /* PasswordGaleryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED54FEF62B21C14F00CCED23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED54FEDD2B21C14D00CCED23 /* PasswordGalery */;
+			targetProxy = ED54FEF52B21C14F00CCED23 /* PBXContainerItemProxy */;
+		};
+		ED54FF002B21C14F00CCED23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED54FEDD2B21C14D00CCED23 /* PasswordGalery */;
+			targetProxy = ED54FEFF2B21C14F00CCED23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED54FEE72B21C14D00CCED23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED54FEE82B21C14D00CCED23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED54FEEC2B21C14F00CCED23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED54FEED2B21C14F00CCED23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED54FF062B21C14F00CCED23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED54FF072B21C14F00CCED23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED54FF092B21C14F00CCED23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98CD55A857CA3ADDE55F6F4 /* Pods-PasswordGalery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PasswordGalery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = classes.PasswordGalery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED54FF0A2B21C14F00CCED23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7478F67310BB5D24163775E7 /* Pods-PasswordGalery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PasswordGalery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = classes.PasswordGalery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED54FF0C2B21C14F00CCED23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4741DFEE9C93EA77D968732A /* Pods-PasswordGaleryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = classes.PasswordGaleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordGalery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PasswordGalery";
+			};
+			name = Debug;
+		};
+		ED54FF0D2B21C14F00CCED23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3626CE6A8B2C264C6DD4EE5A /* Pods-PasswordGaleryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = classes.PasswordGaleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordGalery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PasswordGalery";
+			};
+			name = Release;
+		};
+		ED54FF0F2B21C14F00CCED23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEAC7FD05C52943511309DFE /* Pods-PasswordGalery-PasswordGaleryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = classes.PasswordGaleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasswordGalery;
+			};
+			name = Debug;
+		};
+		ED54FF102B21C14F00CCED23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4E0B5F5A115E98C90AF213 /* Pods-PasswordGalery-PasswordGaleryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = classes.PasswordGaleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasswordGalery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED54FED92B21C14D00CCED23 /* Build configuration list for PBXProject "PasswordGalery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED54FF062B21C14F00CCED23 /* Debug */,
+				ED54FF072B21C14F00CCED23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED54FF082B21C14F00CCED23 /* Build configuration list for PBXNativeTarget "PasswordGalery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED54FF092B21C14F00CCED23 /* Debug */,
+				ED54FF0A2B21C14F00CCED23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED54FF0B2B21C14F00CCED23 /* Build configuration list for PBXNativeTarget "PasswordGaleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED54FF0C2B21C14F00CCED23 /* Debug */,
+				ED54FF0D2B21C14F00CCED23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED54FF0E2B21C14F00CCED23 /* Build configuration list for PBXNativeTarget "PasswordGaleryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED54FF0F2B21C14F00CCED23 /* Debug */,
+				ED54FF102B21C14F00CCED23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED54FED62B21C14D00CCED23 /* Project object */;
+}
